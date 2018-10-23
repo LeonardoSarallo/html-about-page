@@ -11,7 +11,6 @@ body {
   background: #EBEBEB;
 }
 .conteiner {
-  background: red;
   padding: 15px;
   border-radius: 3px;
   width: 1000px;
@@ -22,10 +21,16 @@ body {
 
 
 }
+.wrapper {
+  display: table;
+  clear: both;
+  content: ''
+}
 .leftconteiner {
   width: 40%;
   height: 700px;
   float: left;
+  border-radius: 5px;
 
 }
 .boris {
@@ -33,6 +38,7 @@ body {
   height: 450px;
   background: white;
   text-align: center;
+  border-radius: 5px;
 }
 
 .social {
@@ -40,6 +46,7 @@ body {
   height: 220px;
   background: white;
   margin-top: 30px;
+  border-radius: 5px;
 }
 .rightconteiner {
   width: calc(60% - 50px);
@@ -47,16 +54,21 @@ body {
   float: left;
   background: white;
   margin-left: 50px;
+  border-radius: 5px;
 
 }
-/* .about {
+ .about {
   width: 100%;
   height: 250px;
   background: red;
-  position: absolute;
-  border-bottom: 10px;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
 
-} */
+
+
+
+}
 .boris img {
   height: 100px;
   border: 3px solid #cccccc;
@@ -78,4 +90,12 @@ body {
 .boris p {
   text-align: justify;
   padding: 20px;
+}
+.boris a {
+  text-decoration: none;
+  background: #DD5555;
+  padding: 20px;
+  color: white;
+  border-radius: 4px
+
 }
