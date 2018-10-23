@@ -165,7 +165,7 @@ body {
 .aboutright {
   width: 40%;
   height: 250px;
-  background: pink;
+  background: white;
   float: left;
 }
 .aboutleft h2 {
@@ -181,4 +181,18 @@ body {
 .aboutleft a:hover
 {
   color: #DD5555
+}
+.aboutright a {
+  padding: 20px 0;
+}
+.aboutright li {
+  list-style: none;
+  display: inline-block;
+  line-height: 250px;
+  margin: 60px 20px;
+  float: right;;
+}
+.aboutright i:hover {
+  color: #c61414;
+
 }
