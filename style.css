@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
   color:  #7d7d7d;
-  font-size: 15px;
-
+/*   font-size: 15px;
+ */
+}
+body {
+  background: #EBEBEB;
 }
 .conteiner {
   background: red;
@@ -23,7 +25,6 @@
 .leftconteiner {
   width: 40%;
   height: 700px;
-  /* background: rgba(175, 175, 175, 0.1); */
   float: left;
 
 }
@@ -31,6 +32,7 @@
   width: 100%;
   height: 450px;
   background: white;
+  text-align: center;
 }
 
 .social {
@@ -55,3 +57,25 @@
   border-bottom: 10px;
 
 } */
+.boris img {
+  height: 100px;
+  border: 3px solid #cccccc;
+  border-radius: 100%;
+  margin: 20px 0;
+
+}
+.boris h1, p {
+  margin: 25px 0;
+}
+.boris h1 {
+  color: #DD5555;
+  font-size: 25px;
+
+}
+.boris h2 {
+  font-size: 20px;
+}
+.boris p {
+  text-align: justify;
+  padding: 20px;
+}
